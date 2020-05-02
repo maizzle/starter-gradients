@@ -6,8 +6,8 @@ This is the repo for the [How to use CSS background gradients in HTML emails](ht
 
 There are 2 examples included:
 
-- [Promotional](https://github.com/maizzle/example-gradients/blob/master/src/templates/promotional.njk) - using a gradient on an element inside the template
-- [Transactional](https://github.com/maizzle/example-gradients/blob/master/src/templates/transactional.njk) - body background gradient
+- [Promotional](https://github.com/maizzle/example-gradients/blob/master/src/templates/promotional.html) - using a gradient on an element inside the template
+- [Transactional](https://github.com/maizzle/example-gradients/blob/master/src/templates/transactional.html) - body background gradient
 
 ## Compatibility
 
