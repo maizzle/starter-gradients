@@ -11,7 +11,7 @@ There are 2 examples included:
 
 ## Compatibility
 
-The templates use a CSS `background-image` linear gradient with a VML fallback for Outlook, which means it works in more than 87% of all email clients (possibly even more, lots of email clients for the Mac should support this just fine).
+The templates use a CSS `background-image` linear gradient with a VML fallback for Outlook, which means it works in over 87% of all email clients (possibly even more, lots of email clients for the Mac should support this just fine).
 
 Email clients that don't support either of those will show a solid background color.
 
@@ -57,7 +57,7 @@ npm install -g @maizzle/cli
 Scaffold a new project with this example:
 
 ```
-maizzle new https://github.com/maizzle/example-gradients.git && cd example-gradients
+maizzle new maizzle/example-gradients && cd example-gradients
 ```
 
 Develop locally:
@@ -77,4 +77,3 @@ maizzle build production
 Read the guide: https://maizzle.com/guides/css-background-gradients-html-emails/
 
 Maizzle documentation is available at https://maizzle.com
-
