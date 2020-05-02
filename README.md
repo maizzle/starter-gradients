@@ -1,4 +1,4 @@
-# CSS Gradients in HTML emails
+# CSS Gradients in HTML emails 🌈
 
 This is the repo for the [How to use CSS background gradients in HTML emails](https://maizzle.com/guides/css-background-gradients-html-emails/) Maizzle tutorial.
 
