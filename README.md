@@ -44,7 +44,11 @@ Solid background color shows in:
 - Comcast, GMX, Telstra/BigPond
 - Outlook 2003
 
+#### Tailwind CSS Gradients
 
+Since [v1.7.0](https://github.com/tailwindlabs/tailwindcss/releases/tag/v1.7.0), Tailwind includes CSS gradient utilities. However, these currently only work with CSS variables, which are poorly supported in email clients.
+
+Because of that, this Starter uses the [`tailwindcss-gradients`](https://github.com/benface/tailwindcss-gradients) plugin instead.
 
 ## Getting Started
 
