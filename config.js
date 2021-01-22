@@ -11,9 +11,6 @@
 
 module.exports = {
   build: {
-    tailwind: {
-      css: 'src/assets/css/main.css',
-    },
     templates: {
       source: 'src/templates',
       destination: {
@@ -23,6 +20,9 @@ module.exports = {
         source: 'src/assets/images',
         destination: 'images',
       },
+    },
+    tailwind: {
+      css: 'src/assets/css/main.css',
     },
   },
 }
