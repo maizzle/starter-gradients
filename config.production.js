@@ -1,6 +1,6 @@
 /*
 |-------------------------------------------------------------------------------
-| Production config           https://maizzle.com/docs/environments/#production
+| Production config                       https://maizzle.com/docs/environments
 |-------------------------------------------------------------------------------
 |
 | This is where you define settings that optimize your emails for production.
@@ -17,9 +17,8 @@ module.exports = {
       },
     },
   },
-  inlineCSS: {
-    mergeLonghand: true,
-  },
   prettify: true,
+  inlineCSS: true,
   removeUnusedCSS: true,
+  shorthandInlineCSS: true,
 }
