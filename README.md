@@ -1,4 +1,16 @@
-# CSS Gradients in HTML emails 🌈
+<div align="center">
+  <p>
+    <a href="https://maizzle.com/#gh-light-mode-only" target="_blank">
+      <img src="./.github/logo-light.svg" alt="Maizzle" width="200">
+    </a>
+    <a href="https://maizzle.com/#gh-dark-mode-only" target="_blank">
+      <img src="./.github/logo-dark.svg" alt="Maizzle" width="200">
+    </a>
+  </p>
+  <p>CSS Gradients in HTML emails 🌈</p>
+</div>
+
+## About
 
 This is the repo for the [How to use CSS background gradients in HTML emails](https://maizzle.com/guides/gradients) Maizzle guide.
 
