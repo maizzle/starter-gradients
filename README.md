@@ -1,13 +1,25 @@
-# CSS Gradients in HTML emails 🌈
+<div align="center">
+  <p>
+    <a href="https://maizzle.com/#gh-light-mode-only" target="_blank">
+      <img src="./.github/logo-light.svg" alt="Maizzle" width="200">
+    </a>
+    <a href="https://maizzle.com/#gh-dark-mode-only" target="_blank">
+      <img src="./.github/logo-dark.svg" alt="Maizzle" width="200">
+    </a>
+  </p>
+  <p>CSS Gradients in HTML emails 🌈</p>
+</div>
 
-This is the repo for the [How to use CSS background gradients in HTML emails](https://maizzle.com/guides/css-background-gradients-html-emails/) Maizzle tutorial.
+## About
+
+This is the repo for the [How to use CSS background gradients in HTML emails](https://maizzle.com/guides/gradients) Maizzle guide.
 
 ## Templates
 
 There are 2 examples included:
 
-- [Promotional](https://github.com/maizzle/example-gradients/blob/master/src/templates/promotional.html) - using a gradient on an element inside the template
-- [Transactional](https://github.com/maizzle/example-gradients/blob/master/src/templates/transactional.html) - body background gradient
+- [Promotional](https://github.com/maizzle/starter-gradients/blob/master/src/templates/promotional.html) - using a gradient on an element inside the template
+- [Transactional](https://github.com/maizzle/starter-gradients/blob/master/src/templates/transactional.html) - body background gradient
 
 ## Compatibility
 
@@ -58,26 +70,35 @@ Install the Maizzle CLI:
 npm install -g @maizzle/cli
 ```
 
-Scaffold a new project with this example:
+Scaffold a new project with this starter:
 
 ```
-maizzle new maizzle/example-gradients && cd example-gradients
+maizzle new gradients
 ```
 
-Develop locally:
+Alternatively, you may clone this starter directly:
+
+```bash
+# remember to install dependencies with `npm install`
+npx degit maizzle/starter-gradients
+```
+
+## Development
+
+Start a local development server:
 
 ```
-maizzle serve
+npm run dev
 ```
 
 Build for production:
 
 ```
-maizzle build production
+npm run build
 ```
 
 ## Documentation
 
-Read the guide: https://maizzle.com/guides/css-background-gradients-html-emails/
+Read the guide: https://maizzle.com/guides/gradients
 
 Maizzle documentation is available at https://maizzle.com
