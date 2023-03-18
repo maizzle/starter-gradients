@@ -4,8 +4,8 @@ preheader: "👀 Lorem, ipsum, and much dolor in this week's edition"
 bodyClass: bg-gray-200
 ---
 
-<extends src="src/layouts/main.html">
-  <block name="template">
+<x-main>
+  <fill:template>
     <table class="w-full font-sans">
       <tr>
         <td align="center" class="bg-gray-200 sm:px-4">
@@ -24,7 +24,8 @@ bodyClass: bg-gray-200
                 <v:fill type="gradient" color="#b794f4" color2="#805ad5" angle="90" />
                 <v:textbox style="mso-fit-shape-to-text:true" inset="0,0,0,0">
                 <div><![endif]-->
-                <div class="leading-16 sm:h-8" role="separator">&zwnj;</div>
+                <div class="leading-16 sm:h-8" role="separator">&zwj;</div>
+
                 <table class="w-full">
                   <tr>
                     <td class="w-12 sm:w-4"></td>
@@ -32,11 +33,14 @@ bodyClass: bg-gray-200
                       <h1 class="m-0 mb-4 text-4xl text-white sm:leading-10">
                         Lorem ipsum dolor
                       </h1>
+
                       <p class="m-0 text-white text-lg leading-6">
                         Consectetur esse cupidatat in aliqua pariatur anim pariatur dolor nisi.
                         Adipisicing elit labore nisi ullamco qui sint cillum commodo nisi velit sunt dolore.
                       </p>
-                      <div class="leading-16 sm:h-8" role="separator">&zwnj;</div>
+
+                      <div class="leading-16 sm:h-8" role="separator">&zwj;</div>
+
                       <a
                         href="https://example.com"
                         class="inline-block py-4 px-6 rounded text-base leading-full font-semibold text-center [text-decoration:none] text-white bg-purple-400 hover:bg-purple-500"
@@ -53,7 +57,8 @@ bodyClass: bg-gray-200
                     <td class="w-12 sm:w-4"></td>
                   </tr>
                 </table>
-                <div class="leading-16 sm:h-8" role="separator">&zwnj;</div>
+
+                <div class="leading-16 sm:h-8" role="separator">&zwj;</div>
                 <!--[if gte mso 9]></div></v:textbox></v:rect><![endif]-->
               </td>
             </tr>
@@ -71,14 +76,17 @@ bodyClass: bg-gray-200
                             <p class="m-0 mb-1 text-sm text-gray-500">
                               2 Feb, 2020
                             </p>
+
                             <h2 class="m-0 mb-6 text-2xl leading-6">
                               Sit aliqua reprehenderit qui veniam culpa.
                             </h2>
+
                             <p class="m-0 mb-6 text-base text-gray-800">
                               Ex consequat deserunt id cupidatat exercitation irure commodo.
                               Dolor et est irure elit cupidatat laborum veniam amet eiusmod Lorem ex ea do aliqua.
                               Ipsum Lorem nulla sit aliqua quis veniam magna...
                             </p>
+
                             <a href="https://example.com" class="text-base text-blue-500 hover:text-blue-400 [text-decoration:none]">
                               Read more &rarr;
                             </a>
@@ -101,12 +109,15 @@ bodyClass: bg-gray-200
                             <p class="m-0 mb-1 text-sm text-gray-500">
                               3 Feb, 2020
                             </p>
+
                             <h2 class="m-0 mb-6 text-2xl leading-6">
                               Do ullamco reprehenderit ut dolor.
                             </h2>
+
                             <p class="m-0 mb-6 text-base text-gray-800">
                               Consectetur veniam ipsum ea sit est do voluptate laboris...
                             </p>
+
                             <a href="https://example.com" class="text-base text-blue-500 hover:text-blue-400 [text-decoration:none]">
                               Read more &rarr;
                             </a>
@@ -121,12 +132,15 @@ bodyClass: bg-gray-200
                             <p class="m-0 mb-1 text-sm text-gray-500">
                               4 Feb, 2020
                             </p>
+
                             <h2 class="m-0 mb-6 text-2xl leading-6">
                               Sunt in do sunt officia nisi enim qui eiusmod.
                             </h2>
+
                             <p class="m-0 mb-6 text-base text-gray-800">
                               Nulla officia mollit ipsum eiusmod excepteur ea...
                             </p>
+
                             <a href="https://example.com" class="text-base text-blue-500 hover:text-blue-400 [text-decoration:none]">
                               Read more &rarr;
                             </a>
@@ -146,7 +160,9 @@ bodyClass: bg-gray-200
                 <h3 class="m-0 text-base font-semibold text-gray-500 uppercase">
                   From the archives
                 </h3>
-                <div class="leading-6" role="separator">&zwnj;</div>
+
+                <div class="leading-6" role="separator">&zwj;</div>
+
                 <table class="w-full">
                   <tr>
                     <td>
@@ -155,13 +171,15 @@ bodyClass: bg-gray-200
                           Lorem velit tempor qui
                         </a>
                       </h4>
+
                       <p class="m-0 text-gray-500">
                         Aliquip excepteur sint voluptate Lorem nisi deserunt consequat...
                       </p>
+
                       <table class="w-full" role="separator">
                         <tr>
                           <td class="py-6">
-                            <div class="bg-gray-300 h-px leading-px">&zwnj;</div>
+                            <div class="bg-gray-300 h-px leading-px">&zwj;</div>
                           </td>
                         </tr>
                       </table>
@@ -174,6 +192,7 @@ bodyClass: bg-gray-200
                           Lorem velit tempor qui
                         </a>
                       </h4>
+
                       <p class="m-0 text-gray-500">
                         Aliquip excepteur sint voluptate Lorem nisi deserunt consequat...
                       </p>
@@ -200,5 +219,5 @@ bodyClass: bg-gray-200
         </td>
       </tr>
     </table>
-  </block>
-</extends>
+  </fill:template>
+</x-main>
