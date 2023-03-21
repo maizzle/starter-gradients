@@ -20,5 +20,5 @@ module.exports = {
   prettify: true,
   inlineCSS: true,
   removeUnusedCSS: true,
-  shorthandInlineCSS: true,
+  shorthandCSS: true,
 }
