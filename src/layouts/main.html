@@ -20,7 +20,9 @@
   <if condition="page.title">
     <title>{{{ page.title }}}</title>
   </if>
-  <style>{{{ page.css }}}</style>
+  <style>
+    {{{ page.css }}}
+  </style>
   <stack name="head" />
 </head>
 <body class="m-0 p-0 w-full [word-break:break-word] [-webkit-font-smoothing:antialiased] {{ page.bodyClass || '' }}">
@@ -31,7 +33,7 @@
     </div>
   </if>
   <div role="article" aria-roledescription="email" aria-label="{{{ page.title || '' }}}" lang="{{ page.language || 'en' }}">
-    <slot:template />
+    <content />
   </div>
 </body>
 </html>
